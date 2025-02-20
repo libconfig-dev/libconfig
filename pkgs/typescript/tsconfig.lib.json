@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "include": ["${configDir}/src"],
+  "compilerOptions": {
+    "rootDir": "${configDir}/src",
+    "outDir": "${configDir}/pkg",
+    "paths": {
+      "@/*": ["${configDir}/src/*"]
+    },
+    "moduleResolution": "bundler",
+    "module": "ESNext",
+    "declaration": true,
+    "emitDeclarationOnly": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "@libconfig/typescript",
+  "version": "0.0.0-alpha.0",
+  "author": "Slee Woo",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": ["*.json"],
+  "exports": {
+    "./tsconfig.vite-solid.json": "./tsconfig.vite-solid.json",
+    "./tsconfig.lib.json": "./tsconfig.lib.json",
+    "./tsconfig.json": "./tsconfig.json"
+  },
+  "scripts": {
+    "build": "biome format --fix"
+  }
+}

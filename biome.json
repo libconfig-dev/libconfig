@@ -1,0 +1,6 @@
+{
+  "extends": ["pkgs/biome/biome.json"],
+    "files": {
+    "include": ["*.json",  "pkgs/*/*.json"]
+  }
+}
