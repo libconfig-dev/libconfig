@@ -1,6 +1,6 @@
 {
-  "extends": ["pkgs/biome/biome.json"],
+  "extends": ["pkgs/@libconfig/biome/biome.json"],
     "files": {
-    "include": ["*.json",  "pkgs/*/*.json"]
+    "include": ["*.json",  "pkgs/**/*.json"]
   }
 }
