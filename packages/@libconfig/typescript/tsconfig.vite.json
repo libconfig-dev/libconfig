@@ -4,8 +4,6 @@
     "noEmit": true,
     "moduleResolution": "bundler",
     "module": "ESNext",
-    "types": ["vite/client"],
-    "jsx": "preserve",
-    "jsxImportSource": "solid-js"
+    "types": ["vite/client"]
   }
 }
