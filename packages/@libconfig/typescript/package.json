@@ -7,11 +7,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "files": [
-    "*.json"
-  ],
+  "files": ["*.json"],
   "exports": {
-    "./tsconfig.vite-solid.json": "./tsconfig.vite-solid.json",
+    "./tsconfig.vite.json": "./tsconfig.vite.json",
     "./tsconfig.lib.json": "./tsconfig.lib.json",
     "./tsconfig.json": "./tsconfig.json"
   },
