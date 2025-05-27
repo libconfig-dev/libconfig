@@ -1,13 +1,15 @@
 {
   "type": "module",
   "name": "@libconfig/biome",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Slee Woo",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
-  "files": ["*.json"],
+  "files": [
+    "*.json"
+  ],
   "exports": {
     ".": "./biome.json",
     "./biome": "./biome.json",
