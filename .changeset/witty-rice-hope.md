@@ -1,0 +1,5 @@
+---
+"@libconfig/typescript": patch
+---
+
+y
