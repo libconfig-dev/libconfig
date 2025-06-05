@@ -10,6 +10,7 @@
   "files": ["*.json"],
   "exports": {
     "./tsconfig.vite.json": "./tsconfig.vite.json",
+    "./tsconfig.vite-solid.json": "./tsconfig.vite-solid.json",
     "./tsconfig.lib.json": "./tsconfig.lib.json",
     "./tsconfig.json": "./tsconfig.json"
   },
