@@ -1,13 +1,15 @@
 {
   "type": "module",
   "name": "@libconfig/typescript",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Slee Woo",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
-  "files": ["*.json"],
+  "files": [
+    "*.json"
+  ],
   "exports": {
     "./tsconfig.vite.json": "./tsconfig.vite.json",
     "./tsconfig.vite-solid.json": "./tsconfig.vite-solid.json",
