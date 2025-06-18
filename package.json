@@ -16,7 +16,8 @@
     "pub": "changeset publish"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
+    "@biomejs/biome": "^2.0.0",
+    "@libconfig/biome": "workspace:^",
     "@changesets/cli": "^2.29.4",
     "rimraf": "^6.0.1",
     "typescript": "^5.8.3"
