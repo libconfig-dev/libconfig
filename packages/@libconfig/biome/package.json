@@ -7,7 +7,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "files": ["*.json"],
+  "files": [
+    "*.json"
+  ],
   "exports": {
     ".": "./biome.json",
     "./biome": "./biome.json",
