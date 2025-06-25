@@ -1,5 +1,5 @@
 {
-  "$schema": "https://biomejs.dev/schemas/2.0.0/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.0.5/schema.json",
   "formatter": {
     "indentStyle": "space",
     "indentWidth": 2
@@ -8,25 +8,22 @@
     "enabled": true,
     "rules": {
       "complexity": { "noUselessTernary": "off", "useLiteralKeys": "off" },
+      "correctness": {
+        "noUnusedVariables": {
+          "level": "info",
+          "options": {
+            "ignoreRestSiblings": true
+          }
+        }
+      },
       "style": {
         "useFilenamingConvention": {
           "level": "error",
           "options": {
             "strictCase": true,
-            "requireAscii": true,
-            "filenameCases": ["kebab-case", "snake_case", "PascalCase"]
+            "requireAscii": true
           }
-        },
-        "noParameterAssign": "error",
-        "useAsConstAssertion": "error",
-        "useDefaultParameterLast": "error",
-        "useEnumInitializers": "error",
-        "useSelfClosingElements": "error",
-        "useSingleVarDeclarator": "error",
-        "noUnusedTemplateLiteral": "error",
-        "useNumberNamespace": "error",
-        "noInferrableTypes": "error",
-        "noUselessElse": "error"
+        }
       },
       "suspicious": {
         "noConsole": {
@@ -49,11 +46,11 @@
               ":BLANK_LINE:",
               [":PACKAGE:", ":PACKAGE_WITH_PROTOCOL:"],
               ":BLANK_LINE:",
-              ":URL:",
+              [":URL:"],
               ":BLANK_LINE:",
-              ":ALIAS:",
+              [":ALIAS:"],
               ":BLANK_LINE:",
-              ":PATH:"
+              [":PATH:"]
             ]
           }
         }
