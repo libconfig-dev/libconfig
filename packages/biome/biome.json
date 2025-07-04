@@ -1,5 +1,5 @@
 {
-  "$schema": "https://biomejs.dev/schemas/2.0.5/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.0.6/schema.json",
   "formatter": {
     "indentStyle": "space",
     "indentWidth": 2
@@ -7,7 +7,11 @@
   "linter": {
     "enabled": true,
     "rules": {
-      "complexity": { "noUselessTernary": "off", "useLiteralKeys": "off" },
+      "complexity": {
+        "noBannedTypes": "off",
+        "noUselessTernary": "off",
+        "useLiteralKeys": "off"
+      },
       "correctness": {
         "noUnusedVariables": {
           "level": "info",
@@ -26,6 +30,7 @@
         }
       },
       "suspicious": {
+        "noEmptyInterface": "off",
         "noConsole": {
           "level": "info",
           "options": {
