@@ -1,6 +1,6 @@
 {
   "extends": "./tsconfig.json",
-  "include": ["${configDir}/src"],
+  "include": ["${configDir}/src", "${configDir}/test"],
   "compilerOptions": {
     "rootDir": "${configDir}/src",
     "outDir": "${configDir}/pkg",
