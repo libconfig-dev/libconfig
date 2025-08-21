@@ -2,7 +2,7 @@
   "extends": "./tsconfig.json",
   "include": ["${configDir}/src", "${configDir}/test"],
   "compilerOptions": {
-    "rootDir": "${configDir}/src",
+    "rootDir": "${configDir}",
     "outDir": "${configDir}/pkg",
     "paths": {
       "@/*": ["${configDir}/src/*"]
